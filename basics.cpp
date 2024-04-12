@@ -12,4 +12,5 @@ int main(){
 
     cout<<"after reversing a is "<<a;
     cout<<"\nafter reversing b is "<<b;
+    return 0;
 } 
