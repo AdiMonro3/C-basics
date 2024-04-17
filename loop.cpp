@@ -132,7 +132,7 @@ while(n>0){
 }
 cout<<sum;*/
 
-//HW : WAP to print sum of all the even digits of a given number.
+/*HW : WAP to print sum of all the even digits of a given number.
 int n;
 cin>>n;
 int sum=0;
@@ -142,9 +142,20 @@ while(n>0){
         sum=sum +lastdigit;
     }
     n=n/10;
-    
+    }
+cout<<"sum of all even digits are "<<sum;*/
+
+/* Ques : WAP to print reverse of a given number.
+int n;
+cin>>n;
+int reverse=0;
+while(n>0){
+    int lastdigit=n%10;
+    reverse=reverse*10+lastdigit;
+    n=n/10;
 }
-cout<<"sum of all even digits are "<<sum;
+cout<<reverse;*/
+
 
 
         
